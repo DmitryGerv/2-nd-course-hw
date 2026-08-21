@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/star.svg" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -10,8 +11,96 @@
   <title>Мой сайт с играми</title>
 </head>
 
-<body>
-  
+<body class="page">
+  <header class="header">
+    <hgroup class="header__title-group">
+      <h1 class="header__title">
+        Добро пожаловать на&nbsp;мой&nbsp;сайт мини&NoBreak;-&NoBreak;игр
+      </h1>
+      <p class="header__subtitle">
+        Тебе&nbsp;предстоит&nbsp;пройти&nbsp;несколько увлекательных&nbsp;игр.
+        Если&nbsp;готов, нажимай&nbsp;<b>«Поехали!»</b>&nbsp;и&nbsp;<b>приступай</b>.
+      </p>
+    </hgroup>
+    <a class="header__button" href="#main">Поехали!</a>
+    <div class="header__marquee">
+      <span class="header__marquee-item">Викторина</span>
+      <span class="header__marquee-item">Угадай число</span>
+      <span class="header__marquee-item">Переверни текст</span>
+      <span class="header__marquee-item">Простая арифметика</span>
+      <span class="header__marquee-item">Камень, ножницы, бумага</span>
+      <span class="header__marquee-item">Генератор случайных цветов</span>
+    </div>
+  </header>
+  <main class="main" id="main">
+    <section class="section">
+      <hgroup class="section__title-group">
+        <h2 class="section__title">Об играх</h2>
+        <p class="section__subtitle">
+          В моей коллекции представлено 6 игр на разные темы.<br>
+          Игры несложные — в них может поиграть каждый.<br>
+          Все игры доступны для пользования.
+        </p>
+      </hgroup>
+
+      <ul class="game-info">
+        <li class="game-info__item">
+          <a class="game-card" href="#">
+            <img class="game-card__img" src="/img/came-cover-number.jpg" alt="">
+            <div class="game-card__text">
+              <span class="game-card__number">Игра № 1</span>
+              <h3 class="game-card__title">Угадай число</h3>
+            </div>
+          </a>
+        </li>
+        <li class="game-info__item">
+          <a class="game-card" href="#">
+            <img class="game-card__img" src="/img/came-cover-hend.jpg" alt="">
+            <div class="game-card__text">
+              <span class="game-card__number">Игра № 4</span>
+              <h3 class="game-card__title">Камень,<br>ножницы,<br>бумага</h3>
+            </div>
+          </a>
+        </li>
+        <li class="game-info__item">
+          <a class="game-card" href="#">
+            <img class="game-card__img" src="/img/came-cover-math.jpg" alt="">
+            <div class="game-card__text">
+              <span class="game-card__number">Игра № 2</span>
+              <h3 class="game-card__title">Простая<br>арифметика</h3>
+            </div>
+          </a>
+        </li>
+        <li class="game-info__item">
+          <a class="game-card" href="#">
+            <img class="game-card__img" src="/img/came-cover-quiz.jpg" alt="">
+            <div class="game-card__text">
+              <span class="game-card__number">Игра № 5</span>
+              <h3 class="game-card__title">Простая<br>викторина</h3>
+            </div>
+          </a>
+        </li>
+        <li class="game-info__item">
+          <a class="game-card" href="#">
+            <img class="game-card__img" src="/img/came-cover-inv.jpg" alt="">
+            <div class="game-card__text">
+              <span class="game-card__number">Игра № 3</span>
+              <h3 class="game-card__title">Переверни текст</h3>
+            </div>
+          </a>
+        </li>
+        <li class="game-info__item">
+          <a class="game-card" href="#">
+            <img class="game-card__img" src="/img/came-cover-color.jpg" alt="">
+            <div class="game-card__text">
+              <span class="game-card__number">Игра № 6</span>
+              <h3 class="game-card__title">Генератор<br>случайных<br>цветов</h3>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 
 </html>
